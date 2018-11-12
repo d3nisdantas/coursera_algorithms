@@ -20,6 +20,7 @@ def optimal_points(segments):
                 lastPoint = min(lastPoint, segments[j][1])
                 j += 1
             else:
+                j += 1
                 break
         points.append(firstPoint)
         i = j
